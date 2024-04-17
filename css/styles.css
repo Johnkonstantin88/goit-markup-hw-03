@@ -1,0 +1,162 @@
+/* text colors */
+
+/* body color  #434455;
+headers color #2E2F42;
+accent #404BBF;
+links #4D5AE5;
+white #FFFFFF;
+light mode backgrounds #F4F4FD;
+
+*/
+
+:root {
+  --primary-text-color: #434455;
+  --headers-color: #2e2f42;
+  --accent-color: #404bbf;
+  --links-color: #4d5ae5;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Site nav */
+
+.logo {
+  color: var(--links-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.logo-span {
+  color: var(--headers-color);
+}
+
+.site-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.auth-nav {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.list-item {
+  letter-spacing: 0.02em;
+}
+
+/* Headers links colors*/
+
+.site-nav .links {
+  color: var(--headers-color);
+}
+
+.auth-nav .links {
+  color: var(--primary-text-color);
+}
+
+.button {
+  color: #ffffff;
+  background-color: var(--links-color);
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--headers-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* H2 */
+
+.title {
+  color: var(--headers-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* H3 */
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
+}
+
+/* P */
+
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Our team */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: var(--headers-color);
+}
+
+.page-footer .logo-span {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+/* hover/focus */
+
+.links:hover,
+.links:focus {
+  color: var(--accent-color);
+}
+
+.button.links:hover,
+.button.links:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
